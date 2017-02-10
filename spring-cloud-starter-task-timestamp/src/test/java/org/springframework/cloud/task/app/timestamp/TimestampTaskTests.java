@@ -18,9 +18,10 @@ package org.springframework.cloud.task.app.timestamp;
 
 import org.junit.Rule;
 import org.junit.Test;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.test.OutputCapture;
+import org.springframework.boot.test.rule.OutputCapture;
 
 import static junit.framework.Assert.assertTrue;
 
